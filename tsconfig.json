@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "./server.ts",
+        "./server/**/*.ts",
+        "./server/**/*.tsx",
+        "!node_modules/**",
+        "!./public/**"
+    ],
+    "compileOnSave": true,
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "./server.ts",
+        "./server/dao/documentModel.ts",
+        "./server/dao/todoModel.ts",
+        "./server/dao/messageModel.ts",
+        "./server/resources/document.ts",
+        "./server/resources/todos.ts",
+        "./server/resources/index.ts"
+    ]
+}
