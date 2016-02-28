@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "controllers/*.ts",
+        "services/*.ts"
+    ],
+    "compileOnSave": true,
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "controllers/editor.ts",
+        "controllers/todo.ts",
+        "controllers/boot.ts",
+        "controllers/app.component.ts",
+        "services/xhr-factory.ts",
+        "services/todos-factory.ts",
+        "controllers/index.ts"
+    ]
+}

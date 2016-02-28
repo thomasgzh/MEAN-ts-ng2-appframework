@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MEAN skeleton</title>
+    <base href="./">
+    <script src="angular2/bundles/angular2-polyfills.js"></script>
+    <script src="typescript/lib/typescript.js"></script>
+    <script src="systemjs/dist/system.js"></script>
+    <script src="rxjs/bundles/Rx.js"></script>
+    <script src="angular2/bundles/angular2.js"></script>
+    <script src="angular2/bundles/http.dev.js"></script>
+    <script src="angular2/bundles/router.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/app.component.css">
+    <script>
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: { emitDecoratorMetadata: true },
+        packages: {'controllers': {defaultExtension: 'ts'},'services': {defaultExtension: 'ts'}}
+      });
+      System.import('controllers/boot')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <body>
+    <!--<my-app>Loading document ...</my-app>-->
+    <boot_app>Loading ...</boot_app>
+  </body>
+</html>
