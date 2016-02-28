@@ -1,4 +1,4 @@
-MEAN Typescript Angular2 Skeleton
+# MEAN-ts-ng2-appframework
 =================
 
 A simple MEAN stack skeleton written in Typescript.
@@ -55,4 +55,3 @@ Note: All commands entered need to be performed from within *this directory*.
 7. Open your favorite browser and navigating to `http://localhost:3000/` to access the app.
 
 
-# MEAN-ts-ng2-appframework
